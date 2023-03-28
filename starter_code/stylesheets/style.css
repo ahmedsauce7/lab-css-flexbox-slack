@@ -8,3 +8,65 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+.nav-bar {
+display: flex;
+flex-direction: row;
+background-color: #540B51;
+justify-content: center;
+align-items: center;
+
+}
+
+.left-nav {
+left: 80px;
+}
+
+.search-icon {
+    right: 80px;
+}
+
+.menu-icon {
+    right: 80px;
+}
+
+
+.tableScreen {
+    @media screen and (min-width: 768px) {
+        /* STYLES HERE */
+    }
+    
+    @media screen and (min-device-width: 768px) and (max-device-width: 768px) { 
+        /* STYLES HERE */
+    }
+    
+    @media only screen and (max-device-width: 768px) {
+        /* STYLES HERE */
+    }
+}
+
+.slack-pic {
+   width: 32px;
+   height: auto;
+   position: fixed;
+  left: 20px;
+  object-fit: contain;
+}
+.right-search-icon {
+    position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+
+}
+
+.right-menu-icon {
+    position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+  height: auto;
+
+}
+.right-nav {
+   
+}
